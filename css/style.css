@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(230, 223, 222);
+    padding: 100px;
+}
+
+#user-amount{
+    display: none; 
+}
+.input-area {
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0px 5px 20px rgb(139, 107, 102);
+    margin-top: 5%;
+}
+
+.input-area h2 {
+    color: brown;font-family:
+    math;font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#submit-area h1 {
+    font-family: serif;
+    color: tomato;
+    margin-bottom: 60px;
+    padding: 15px;
+}
+
+#Input-name{
+    margin-bottom: 20px;
+}
+
+#Input-password{
+    margin-bottom: 25px;
+}
+
+#deposit {
+    background-color: rgb(83, 83, 112);
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+#withdraw{
+    background-color: rgb(149, 197, 38);
+    padding: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-bottom: 12px; 
+}
+
+#balance {
+    background-color: rgb(122 113 162);
+    padding: 15px;
+    text-align: center;
+    color: rgb(218 203 203);
+    margin-bottom: 12px;
+}
+
+.amount-area{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+#new-deposit {
+    background-color: rgb(83, 83, 112);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 2px 4px 6px #1b1515;
+    border-radius: 5px;
+}
+
+#new-withdraw{
+    background-color: rgb(58 80 6);
+    margin-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px #1b1515;
+}
+
+#new-deposit h6 {
+    margin: 12px 0px;
+    color: rgb(228, 201, 201);
+    font-family: auto;
+    font-size: 18px;
+}
+
+#new-withdraw h6 {
+    margin: 12px 0px;
+    color: rgb(209, 187, 187);
+    font-family: auto;
+    font-size: 18px;
+}
+
+#depositAmount {
+    margin: 20px 0px;
+}
+
+#withdraw-amount {
+    margin: 20px 0px;
+}
+
+button#deposit-btn {
+    margin-bottom: 12px;
+}
+
+button#withdraw-btn {
+    margin-bottom: 12px;
+}

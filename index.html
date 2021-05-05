@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pioneer bank </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="submit-area">
+     <h1 class="text-center"> Welcome To Pioneer Bank</h1>
+     <div class="input-area">
+      <h2>Log In</h2>
+       <input class="form-control" id="Input-name" type="text" placeholder="Enter your name">
+       <input class="form-control" id="Input-password" type="password" name="" id="" placeholder="password">
+      <button id="logIn" class="btn-btn-success">Submit</button>
+     </div>
+   </div>
+
+
+   <div class="container">
+     <div id="user-amount">
+      <div class="row amount-area">
+        <div id="deposit" class="col-md-3">
+          <h5>Deposit</h5>
+          <h4>$ <span id="currentBalance">00</span></h4>
+        </div>
+        <div id="withdraw" class="col-md-3">
+           <h5>Withdraw</h5>
+           <h4>$ <span id="currentWithdraw">00</span> </h4>
+         </div>
+        <div id="balance" class="col-md-3">
+          <h5>Balance</h5>
+          <h4>$ <span id="totalBalance">1200</span></h4>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+     
+     
+     <div class="row">
+      <div class="col-md-3"></div>
+      
+      <div id="new-deposit" class="col-md-3">
+        <h6>Deposit</h6>
+        <input class="form-control" id="depositAmount" type="text" placeholder="$ amount you want to deposit">
+        <button id="deposit-btn" class="btn-btn-success">Submit</button>
+      </div>
+      <div id="new-withdraw" class="col-md-3">
+       <h6>Withdraw</h6>
+       <input class="form-control" id="withdraw-amount" type="text" placeholder="$ amount you want to withdraw">
+       <button id="withdraw-btn" class="btn-btn-success">Submit</button>
+      </div>
+      <div class="col-md-3"></div>
+    </div> 
+   </div>
+
+
+
+<script src="js/app.js"></script>   
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
